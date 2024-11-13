@@ -4,15 +4,15 @@ public class Main {
         
       public static  class product{
        
-            public int sum(int x,int y){
+            public int product(int x,int y){
                 return x+y;
                 
             }
-            public int sum(int x, int y, int z) {
+            public int product(int x, int y, int z) {
                 return x+y+z;
 
             }
-            public double sum(double x, double y) {
+            public double product(double x, double y) {
                 return x+y;
 
             }
@@ -20,9 +20,9 @@ public class Main {
         public static void main(String args[]){
             product p=new product();
 
-          System.out.println(p.sum(10,20));
-          System.out.println(p.sum(20,10,30));
-          System.out.println(p.sum(40,50,60));
+          System.out.println(p.product(10,20));
+          System.out.println(p.product(20,10,30));
+          System.out.println(p.product(40,50,60));
         
 
         }
